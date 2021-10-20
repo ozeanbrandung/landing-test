@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестовое задание Лаборатория интеренет</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+
+</head>
+<body>
+    
+    <header>
+        <a href="#" class="logo">
+            <img src="./img/logo-img.png" alt="">testLab
+        </a>
+        <div class="burgerMenu" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+        </div>
+        <nav>
+            <ul class="nav">
+                <li class="nav__elem"><a href="#" class="nav__link">Как это работает</a></li>
+                <li class="nav__elem"><a href="#" class="nav__link">3-й блок</a></li>
+                <li class="nav__elem"><a href="#" class="nav__link">Вопросы и ответы</a></li>
+                <li class="nav__elem"><a href="#" class="nav__link">Форма</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- <header class="navigation">
+        <nav class='nav'>
+
+            <div class="nav__mobileTop">
+                
+                <div class='logo nav__logo'>
+                    <span class='logo__whiteCircle'></span>
+                    <span class='logo__blueCircle'></span>
+                    <span class='logo__text'>testLab</span>
+                </div>
+                <div class="toggleMenu" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                </div>
+
+            </div>
+            
+            <ul class='nav__menu'>
+                <li class='nav__btn'><a href="#" class='nav__link nav__link-active'>Как это работает</a></li>
+                <li class='nav__btn'><a href="#" class='nav__link'>3-й блок</a></li>
+                <li class='nav__btn'><a href="#" class='nav__link'>Вопросы и ответы</a></li>
+                <li class='nav__btn'><a href="#" class='nav__link'>Форма</a></li>
+            </ul>
+
+        </nav>
+    </header> -->
+
+    <section class='banner'>
+        <div class='banner__colorOverlay'>
+    
+                <div class="slogan">
+                    <h1 class='slogan__headline'>Говорят, никогда не поздно сменить профессию</h1>
+                    <p class='slogan__subline'>Сделай круто тестовое задание и у тебя получится</p>
+                </div>
+    
+                <button class='button banner__button'>Проще простого!</button>
+            
+
+        </div>
+    
+    </section>
+
+    <section class="description">
+
+    
+            <h2 class="sectionHeadline">Как это работает</h2>
+    
+            <div class="table description__table">
+                <div class="table__element">
+                    <div class="table__image"><img src="./img/waiting.png" alt=""></div>
+                    <div class="table__text">
+                        <h4 class="table__headline">Прочитай задание внимательно</h4>
+                        <p class="table__paragraph">Думаю у тебя не займет это больше двух-трех минут</p>
+                    </div>
+                    
+                </div>
+                <div class="table__element">
+                    <div class="table__image"><img src="./img/delivery.png" alt=""></div>
+                    <div class="table__text">
+                        <h4 class="table__headline">Изучи весь макет заранее</h4>
+                        <p class="table__paragraph">Подумай как это будет работать на разных разрешениях и при скролле</p>
+                    </div>
+                    
+                </div>
+                <div class="table__element">
+                    <div class="table__image"><img src="./img/secure.png" alt=""></div>
+                    <div class="table__text">
+                        <h4 class="table__headline">Сделай хорошо</h4>
+                        <p class="table__paragraph">Чтобы мы могли тебе доверить подобные задачи в будущем</p>
+                    </div>
+                    
+                </div>
+                <div class="table__element">
+                    <div class="table__image"><img src="./img/money.png" alt=""></div>
+                    <div class="table__text">
+                        <h4 class="table__headline">Получи предложение</h4>
+                        <p class="table__paragraph">Ну тут все просто, не я придумал правила, но думаю так и будет)))</p>
+                    </div>
+                    
+                </div>
+            </div>
+    
+            <div class="description__bottom">
+                <div class="description__left">
+                    <h3 class="description__bottomHeadline">Круто, ты дошел до третьего блока</h3>
+                    <div class="description__bottomParagraph">
+                        <p>63% опрошенных пользовались кредитами из-за того, что не могли покрыть непредвиденные расходы
+                            свыше 15 000 ₽.</p>
+                        <p>Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и
+                            штрафах.</p>
+                    </div>
+                </div>
+    
+                <div class="description__right">
+                    <div class="description__image">
+                        <img src="./img/description_img.png" alt="">
+                        <!-- <img src="./img/description_bg.png" class='description__bg' alt="">
+                        <img src="./img/description_fg.png" class='description__fg' alt=""> -->
+                    </div>
+                    
+                </div>
+            </div>
+
+
+    </section>
+
+    <section class="reviews">
+
+            <h2 class="sectionHeadline">Отзывы</h2>
+
+            <div class="slider reviews__slider">
+                <div class="slider__item">
+
+                    <div class="card slider__card">
+                        <div class="card__top">
+                            <div class="card__ava">
+                                <img src='./img/ava1.png'>
+                            </div> 
+                            <div class="card__details">
+                                <div class="card__name">Константинов Михаил Павлович</div>
+                                <div class="card__city">Санкт-Петербург</div>
+                            </div>
+                        </div>
+                        <div class="card__bottom">
+                            <p class="card__content">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы 
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="slider__item">
+
+                    <div class="card slider__card">
+                        <div class="card__top">
+                            <div class="card__ava">
+                                <img src='./img/ava2.png'>
+                            </div> 
+                            <div class="card__details">
+                                <div class="card__name">Иван Иванов</div>
+                                <div class="card__city">Санкт-Петербург</div>
+                            </div>  
+                        </div>
+                        <div class="card__bottom">
+                            <p class="card__content">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы упускаем, что активно развивающиеся страны третьего мира призваны к ответу. 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="slider__item">
+
+                    <div class="card slider__card">
+                        <div class="card__top">
+                            <div class="card__ava">
+                                <img src='./img/ava3.png'>
+                            </div> 
+                            <div class="card__details">
+                                <div class="card__name">Артем Корнилов</div>
+                                <div class="card__city">Самара</div>
+                            </div>
+                        </div>
+                        <div class="card__bottom">
+                            <p class="card__content">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="slider__item">
+
+                    <div class="card slider__card">
+                        <div class="card__top">
+                            <div class="card__ava">
+                                <img src='./img/ava1.png'>
+                            </div> 
+                            <div class="card__details">
+                                <div class="card__name">Константинов Михаил Павлович</div>
+                                <div class="card__city">Санкт-Петербург</div>
+                            </div>
+                        </div>
+                        <div class="card__bottom">
+                            <p class="card__content">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="slider__item">
+
+                    <div class="card slider__card">
+                        <div class="card__top">
+                            <div class="card__ava">
+                                <img src='./img/ava2.png'>
+                            </div> 
+                            <div class="card__details">
+                                <div class="card__name">Константинов Михаил Павлович</div>
+                                <div class="card__city">Санкт-Петербург</div>
+                            </div>
+                            
+                        </div>
+                        <div class="card__bottom">
+                            <p class="card__content">
+                                Каждый из нас понимает очевидную вещь: перспективное планирование предоставляет широкие возможности для анализа существующих паттернов поведения. В своём стремлении улучшить пользовательский опыт мы 
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+
+    </section>
+
+    <section class="qa">
+
+            
+            <h2 class="sectionHeadline">Вопросы и ответы</h2>
+
+            <div class="accordion">
+
+                <div class="accordion__container">
+                    <div class="accordion__label">
+                        <span class="accordion__text small-headline" >Подтверждено: сознание наших соотечественников не замутнено пропагандой?</span>
+                        <button class="accordion__button"><span class="accordion__plus"></span></button>
+                    </div>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis temporibus placeat similique? Cumque rerum voluptatem atque nam, accusantium blanditiis quibusdam minima omnis praesentium pariatur molestiae dolores ex qui itaque reprehenderit.
+                        Facilis voluptatum labore, fugiat, ipsum nesciunt, unde eaque repellendus voluptate corrupti non omnis fuga. Eaque repellendus, placeat quam dicta unde tempora iure facere eum illo nesciunt perferendis officia enim recusandae.
+                        Perspiciatis similique nostrum neque obcaecati beatae debitis, et consectetur assumenda delectus hic, nihil optio, dolor tenetur magnam. </p>
+                    </div>
+                </div>
+
+                <div class="accordion__container">
+                    <div class="accordion__label">
+                        <span class="accordion__text small-headline" >Прототип нового сервиса - это как трубный призыв?</span>
+                        <button class="accordion__button"><span class="accordion__plus"></span></button>
+                    </div>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis temporibus placeat similique? Cumque rerum voluptatem atque nam, accusantium blanditiis quibusdam minima omnis praesentium pariatur molestiae dolores ex qui itaque reprehenderit.
+                        Facilis voluptatum labore, fugiat, ipsum nesciunt, unde eaque repellendus voluptate corrupti non omnis fuga. Eaque repellendus, placeat quam dicta unde tempora iure facere eum illo nesciunt perferendis officia enim recusandae.
+                        Perspiciatis similique nostrum neque obcaecati beatae debitis, et consectetur assumenda delectus hic, nihil optio, dolor tenetur magnam. Molestias illum, odit quia natus dolorem rem, reprehenderit dolores voluptatibus veritatis quas exercitationem!
+                        Labore fugiat quia porro est laboriosam, fuga reprehenderit veritatis numquam quo ullam deserunt ipsa perspiciatis aliquid odit itaque inventore illo voluptates nam quos aliquam obcaecati! Explicabo laudantium excepturi natus nostrum!
+                        Fuga laboriosam repellat quae accusamus a sint. Impedit ullam officiis sunt sapiente, rerum animi harum eligendi quis facere cupiditate reprehenderit natus, maxime autem inventore hic, iste eos facilis deserunt quidem?</p>
+                    </div>
+                </div>
+
+                <div class="accordion__container">
+                    <div class="accordion__label">
+                        <span class="accordion__text small-headline" >Частокол на границе продолжает удивлять?</span>
+                        <button class="accordion__button"><span class="accordion__plus"></span></button>
+                    </div>
+                    <div class="accordion__content">
+                        <p>В частности, дальнейшее развитие различных форм деятельности позволяет выполнить важные задания по разработке дальнейших направлений развития. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня говорит о возможностях существующих финансовых и административных условий.</p>
+                    </div>
+                </div>
+
+                <div class="accordion__container">
+                    <div class="accordion__label">
+                        <span class="accordion__text small-headline" >Очевидцы сообщают, что слышали грохот грома градущих изменений?</span>
+                        <button class="accordion__button"><span class="accordion__plus"></span></button>
+                    </div>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis temporibus placeat similique? Cumque rerum voluptatem atque nam, accusantium blanditiis quibusdam minima omnis praesentium pariatur molestiae dolores ex qui itaque reprehenderit.
+                        Facilis voluptatum labore, fugiat, ipsum nesciunt, unde eaque repellendus voluptate corrupti non omnis fuga. Eaque repellendus, placeat quam dicta unde tempora iure facere eum illo nesciunt perferendis officia enim recusandae.
+                        Perspiciatis similique nostrum neque obcaecati beatae debitis, et consectetur assumenda delectus hic, nihil optio, dolor tenetur magnam. Molestias illum, odit quia natus dolorem rem, reprehenderit dolores voluptatibus veritatis quas exercitationem!
+                        Labore fugiat quia porro est laboriosam, fuga reprehenderit veritatis numquam quo ullam deserunt ipsa perspiciatis aliquid odit itaque inventore illo voluptates nam quos aliquam obcaecati! Explicabo laudantium excepturi natus nostrum!
+                        Fuga laboriosam repellat quae accusamus a sint. Impedit ullam officiis sunt sapiente, rerum animi harum eligendi quis facere cupiditate reprehenderit natus, maxime autem inventore hic, iste eos facilis deserunt quidem?</p>
+                    </div>
+                </div>
+
+                <div class="accordion__container">
+                    <div class="accordion__label">
+                        <span class="accordion__text small-headline" >И по сей день в центральных регионах звучит перекатами печальный плач оппозиции?</span>
+                        <button class="accordion__button"><span class="accordion__plus"></span></button>
+                    </div>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis temporibus placeat similique? Cumque rerum voluptatem atque nam, accusantium blanditiis quibusdam minima omnis praesentium pariatur molestiae dolores ex qui itaque reprehenderit.
+                        Facilis voluptatum labore, fugiat, ipsum nesciunt, unde eaque repellendus voluptate corrupti non omnis fuga. </p>
+                    </div>
+                </div>
+
+                <div class="accordion__container">
+                    <div class="accordion__label">
+                        <span class="accordion__text small-headline" >Нынче никто не может себе позволить инициировать треск разлетающихся скреп?</span>
+                        <button class="accordion__button"><span class="accordion__plus"></span></button>
+                    </div>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis temporibus placeat similique? Cumque rerum voluptatem atque nam, accusantium blanditiis quibusdam minima omnis praesentium pariatur molestiae dolores ex qui itaque reprehenderit.
+                        Facilis voluptatum labore, fugiat, ipsum nesciunt, unde eaque repellendus voluptate corrupti non omnis fuga. Eaque repellendus, placeat quam dicta unde tempora iure facere eum illo nesciunt perferendis officia enim recusandae.
+                        Perspiciatis similique nostrum neque obcaecati beatae debitis, et consectetur assumenda delectus hic, nihil optio, dolor tenetur magnam. Molestias illum, odit quia natus dolorem rem, reprehenderit dolores voluptatibus veritatis quas exercitationem!
+                        Labore fugiat quia porro est laboriosam, fuga reprehenderit veritatis numquam quo ullam deserunt ipsa perspiciatis aliquid odit itaque inventore illo voluptates nam quos aliquam obcaecati! Explicabo laudantium excepturi natus nostrum!
+                        Fuga laboriosam repellat quae accusamus a sint. Impedit ullam officiis sunt sapiente, rerum animi harum eligendi quis facere cupiditate reprehenderit natus, maxime autem inventore hic, iste eos facilis deserunt quidem?</p>
+                    </div>
+                </div>
+
+                <div class="accordion__container">
+                    <div class="accordion__label">
+                        <span class="accordion__text small-headline" >Высококачественный прототип будущего проекта обнадёживает?</span>
+                        <button class="accordion__button"><span class="accordion__plus"></span></button>
+                    </div>
+                    <div class="accordion__content">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis temporibus placeat similique? Cumque rerum voluptatem atque nam, accusantium blanditiis quibusdam minima omnis praesentium pariatur molestiae dolores ex qui itaque reprehenderit.
+                        Facilis voluptatum labore, fugiat, ipsum nesciunt, unde eaque repellendus voluptate corrupti non omnis fuga. Eaque repellendus, placeat quam dicta unde tempora iure facere eum illo nesciunt perferendis officia enim recusandae.
+                        Perspiciatis similique nostrum neque obcaecati beatae debitis, et consectetur assumenda delectus hic, nihil optio, dolor tenetur magnam. Molestias illum, odit quia natus dolorem rem, reprehenderit dolores voluptatibus veritatis quas exercitationem!
+                        Labore fugiat quia porro est laboriosam, fuga reprehenderit veritatis numquam quo ullam deserunt ipsa perspiciatis aliquid odit itaque inventore illo voluptates nam quos aliquam obcaecati! Explicabo laudantium excepturi natus nostrum!
+                        Fuga laboriosam repellat quae accusamus a sint. Impedit ullam officiis sunt sapiente, rerum animi harum eligendi quis facere cupiditate reprehenderit natus, maxime autem inventore hic, iste eos facilis deserunt quidem?</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+    </section>   
+    
+    <section class='textGrid'>
+
+            <div class="textGrid__container">
+
+                <div class="textGrid__card">
+                    <h3 class="textGrid__cardTop small-headline">Опрошенных пользовались микрокредитами</h3>
+                    <div class="texrGrid__cardBottom">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+                </div>
+                <div class="textGrid__card">
+                    <h3 class="textGrid__cardTop small-headline">Опрошенных пользовались микрокредитами</h3>
+                    <div class="texrGrid__cardBottom">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+                </div>
+                <div class="textGrid__card">
+                    <h3 class="textGrid__cardTop small-headline">Опрошенных пользовались микрокредитами</h3>
+                    <div class="texrGrid__cardBottom">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафахНе могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+                </div>
+                <div class="textGrid__card">
+                    <h3 class="textGrid__cardTop small-headline">Опрошенных пользовались микрокредитами</h3>
+                    <div class="texrGrid__cardBottom">Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах Не могли покрыть внезапные траты свыше 7000 ₽. Доступ к заработанным деньгам помогает отказаться от кредитов и экономить деньги на процентах и штрафах</div>
+                </div>
+
+            </div>
+
+        
+    </section>
+
+    <section class="contact">
+
+            <h2 class="sectionHeadline">Отправь форму</h2>
+
+                <form class='contact__form form' action="">
+                    <input class='contact__input form-input' type="text" placeholder="Имя">
+                    <input class='contact__input form-input'type="text" placeholder="Телефон">
+                    <div class="checkbox-container">
+                        <input type="checkbox" class='contact__checkbox form-checkbox' id="admission" name="admission" value="yes">
+                        <label for="admission">Я согласен</label>
+                    </div>
+                    <button class="button contact__button">Отправить</button>
+                </form>
+
+
+    </section>
+
+    <footer class="footer">
+            <div class="footer__copy">&copy; 2021 Лаборатория интернет</div>
+        
+    </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src='./js/slick.min.js'></script>
+    <script src='./js/script.js'></script>
+    <script src='./js/accordion.js'></script>
+    <script>
+        const toggleMenu = () => {
+            const burger = document.querySelector('.burgerMenu');
+            const nav = document.querySelector('nav');
+            const logo = document.querySelector('.logo');
+            nav.classList.toggle('active');
+            burger.classList.toggle('active');
+            logo.classList.toggle('active');
+        }
+    </script>
+    <script>
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY> 0)
+        })
+    </script>
+</body>
+</html>
