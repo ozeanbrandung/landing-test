@@ -48,8 +48,14 @@ header {
     transition: .5s;
 }
 header.sticky {
-    background: white;
     box-shadow: 0 5px 20px (0, 0, 0, .05);
+    background: white;
+}
+header.sticky .logo {
+    color: black;
+}
+header.sticky .burgerMenu span {
+    background-color: black;
 }
 .burgerMenu {
     z-index: 100000;
@@ -591,6 +597,7 @@ header.sticky .logo {
 }
 
 @media(max-width: 991px) {
+    
     section, footer {
         padding: 0 10%;
     }
@@ -640,7 +647,7 @@ header.sticky .logo {
         transition: .5s;
         width: 100%;
         height: 2px;
-        background-color: black;
+        background-color: white;
     } 
     .burgerMenu.active {
         transform: translateX(-10px);
@@ -778,17 +785,18 @@ header.sticky .logo {
         grid-template-rows: repeat(4, 1fr);
         grid-gap: 32px;
     }
-    .contact__form {
-        grid-template: repeat(4, 64px)/repeat(1, 1fr);
-    }
+    
 
 }
 
 @media(max-width: 600px) {
+    .slogan__headline {
+        margin: 130px 44px 0;
+    }
     .contact__form {
         grid-row-gap: 30px;
         grid-column-gap: 24px;
-        max-width: 600px;
+        max-width: 340px;
     }
     .contact__input {
         max-width: 340px;
@@ -834,6 +842,9 @@ header.sticky .logo {
         display: flex;
         align-items: center;
         justify-content: center;
+    }
+    .contact__form {
+        grid-template: repeat(4, 64px)/repeat(1, 1fr);
     }
    
 }
