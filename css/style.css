@@ -106,6 +106,7 @@ header.sticky .logo {
     background-size: cover;
     background-position: top;  
     background-color: blue;
+    padding-bottom: 30px;
 }
 .banner__colorOverlay {
     width: 100vw;
@@ -145,7 +146,8 @@ header.sticky .logo {
 .banner__button{
     display: block;
     width: 251px;
-    margin: 92px auto 0;
+    margin: 92px auto;
+    background: white;
 }
 
 /* DESCRIPTION SECTION */
@@ -395,7 +397,7 @@ header.sticky .logo {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #C2C8CD;
+    background-color:  #ECEFF2;
 }
 .slider__item {
     /* надо ли эьло? */
